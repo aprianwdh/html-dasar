@@ -1,0 +1,21 @@
+main{
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+p{
+    border: 1px solid black;
+}
+.ln20{
+    text-shadow: 4px 4px 7px black;
+    background-color: bisque;
+    color: black;
+    line-height: 2;
+    text-indent: 2em;
+}
+
+.ln200{
+    line-height: 200%;
+}
+
