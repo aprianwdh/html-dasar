@@ -45,8 +45,9 @@ main {
 }
 
 main {
-    overflow: auto;
-    font-size: 24px
+    display: flex;
+    font-size: 24px;
+    gap: 1.5rem;
 }
 
 h2 {
@@ -111,7 +112,8 @@ nav {
 
 #content {
     float: left;
-    width: 75%
+    width: 75%;
+    flex: 5;
 }
 
 aside {
@@ -131,4 +133,10 @@ aside {
 
 header {
     font-size: 30px
+}
+
+nav ul{
+    padding-inline: 4rm;
+    display: flex;
+    gap: 2rem;
 }
