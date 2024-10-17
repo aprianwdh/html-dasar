@@ -119,7 +119,8 @@ nav {
 aside {
     float: right;
     width: 25%;
-    padding-left: 10px
+    padding-left: 10px;
+    flex: 1;
 }
 
 @media screen and (max-width:1000px) {
